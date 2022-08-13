@@ -90,13 +90,14 @@ Add or reduce the number of epochs to the training regimen.
 
 ## Report on the Neural Network Model
 The purpose of creating these NN models was to find a tool that could help select applicants for funding. After the first model was created, I tried a few optimization models to see if I could improve accuracy while maintaining a low loss rate
-without optimization
+### Without optimization
 ![1](Images/normal.png)
 ![1](Images/accuracy1.png)
+
 Accuracy: 73%
 Loss:56%
 
-with optimization:
+### With optimization:
 ![1](Images/opti2.png)
 ![1](Images/accuracy2.png)
 
